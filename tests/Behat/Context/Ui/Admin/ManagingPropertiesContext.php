@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Tests\Setono\SyliusAnalyticsPlugin\Behat\Context\Ui\Admin;
+namespace Tests\Gabrielcol\SyliusRecommendationAIPlugin\Behat\Context\Ui\Admin;
 
 use Behat\Behat\Context\Context;
-use Setono\SyliusAnalyticsPlugin\Model\PropertyInterface;
-use Tests\Setono\SyliusAnalyticsPlugin\Behat\Page\Admin\Property\CreatePropertyPage;
-use Tests\Setono\SyliusAnalyticsPlugin\Behat\Page\Admin\Property\IndexPropertyPage;
-use Tests\Setono\SyliusAnalyticsPlugin\Behat\Page\Admin\Property\UpdatePropertyPage;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\PropertyInterface;
+use Tests\Gabrielcol\SyliusRecommendationAIPlugin\Behat\Page\Admin\Property\CreatePropertyPage;
+use Tests\Gabrielcol\SyliusRecommendationAIPlugin\Behat\Page\Admin\Property\IndexPropertyPage;
+use Tests\Gabrielcol\SyliusRecommendationAIPlugin\Behat\Page\Admin\Property\UpdatePropertyPage;
 use Webmozart\Assert\Assert;
 
 final class ManagingPropertiesContext implements Context

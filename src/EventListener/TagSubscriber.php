@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\EventListener;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
 use function count;
 use Psr\EventDispatcher\EventDispatcherInterface;
-use Setono\SyliusAnalyticsPlugin\Context\PropertyContextInterface;
-use Setono\SyliusAnalyticsPlugin\Formatter\MoneyFormatter;
-use Setono\SyliusAnalyticsPlugin\Model\PropertyInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Context\PropertyContextInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Formatter\MoneyFormatter;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\PropertyInterface;
 use Setono\TagBagBundle\TagBag\TagBagInterface;
 use Symfony\Bundle\SecurityBundle\Security\FirewallMap;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;

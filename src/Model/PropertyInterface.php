@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Model;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Model;
 
 use Sylius\Component\Channel\Model\ChannelsAwareInterface;
 use Sylius\Component\Resource\Model\ResourceInterface;

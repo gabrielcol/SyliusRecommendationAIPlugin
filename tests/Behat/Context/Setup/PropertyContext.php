@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Setono\SyliusAnalyticsPlugin\Behat\Context\Setup;
+namespace Tests\Gabrielcol\SyliusRecommendationAIPlugin\Behat\Context\Setup;
 
 use Behat\Behat\Context\Context;
-use Setono\SyliusAnalyticsPlugin\Model\PropertyInterface;
-use Setono\SyliusAnalyticsPlugin\Repository\PropertyRepositoryInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\PropertyInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Repository\PropertyRepositoryInterface;
 use Sylius\Component\Channel\Model\ChannelInterface;
 use Sylius\Component\Resource\Factory\FactoryInterface;
 

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\DependencyInjection;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\DependencyInjection;
 
-use Setono\SyliusAnalyticsPlugin\Doctrine\ORM\PropertyRepository;
-use Setono\SyliusAnalyticsPlugin\Form\Type\PropertyType;
-use Setono\SyliusAnalyticsPlugin\Model\Property;
-use Setono\SyliusAnalyticsPlugin\Model\PropertyInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Doctrine\ORM\PropertyRepository;
+use Gabrielcol\SyliusRecommendationAIPlugin\Form\Type\PropertyType;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\Property;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\PropertyInterface;
 use Sylius\Bundle\ResourceBundle\Controller\ResourceController;
 use Sylius\Bundle\ResourceBundle\SyliusResourceBundle;
 use Sylius\Component\Resource\Factory\Factory;

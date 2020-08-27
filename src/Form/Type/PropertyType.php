@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Form\Type;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Form\Type;
 
 use Sylius\Bundle\ChannelBundle\Form\Type\ChannelChoiceType;
 use Sylius\Bundle\ResourceBundle\Form\Type\AbstractResourceType;

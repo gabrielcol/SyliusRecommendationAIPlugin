@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace spec\Setono\SyliusAnalyticsPlugin\Context;
+namespace spec\Gabrielcol\SyliusRecommendationAIPlugin\Context;
 
 use PhpSpec\ObjectBehavior;
-use Setono\SyliusAnalyticsPlugin\Context\PropertyContext;
-use Setono\SyliusAnalyticsPlugin\Model\PropertyInterface;
-use Setono\SyliusAnalyticsPlugin\Repository\PropertyRepositoryInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Context\PropertyContext;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\PropertyInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Repository\PropertyRepositoryInterface;
 use Sylius\Component\Channel\Context\ChannelContextInterface;
 use Sylius\Component\Core\Model\ChannelInterface;
 

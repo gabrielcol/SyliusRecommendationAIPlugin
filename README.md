@@ -41,7 +41,7 @@ $bundles = [
     // Omit this line if you didn't install the SyliusTagBagPlugin in step 1
     Setono\SyliusTagBagPlugin\SetonoSyliusTagBagPlugin::class => ['all' => true],
     
-    Setono\SyliusAnalyticsPlugin\SetonoSyliusAnalyticsPlugin::class => ['all' => true],
+    Gabrielcol\SyliusRecommendationAIPlugin\SetonoSyliusAnalyticsPlugin::class => ['all' => true],
     Sylius\Bundle\GridBundle\SyliusGridBundle::class => ['all' => true],
 ];
 ```
@@ -93,8 +93,8 @@ declare(strict_types=1);
 namespace App\EventListener;
 
 use Loevgaard\SyliusBrandPlugin\Model\BrandAwareInterface;
-use Setono\SyliusAnalyticsPlugin\Builder\ItemBuilder;
-use Setono\SyliusAnalyticsPlugin\Event\BuilderEvent;
+use Gabrielcol\SyliusRecommendationAIPlugin\Builder\ItemBuilder;
+use Gabrielcol\SyliusRecommendationAIPlugin\Event\BuilderEvent;
 use Sylius\Component\Core\Model\OrderItemInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 

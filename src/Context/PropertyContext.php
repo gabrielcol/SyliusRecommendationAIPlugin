@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Context;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Context;
 
-use Setono\SyliusAnalyticsPlugin\Model\PropertyInterface;
-use Setono\SyliusAnalyticsPlugin\Repository\PropertyRepositoryInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\PropertyInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Repository\PropertyRepositoryInterface;
 use Sylius\Component\Channel\Context\ChannelContextInterface;
 
 final class PropertyContext implements PropertyContextInterface

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Builder;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Builder;
 
 use InvalidArgumentException;
 use Safe\Exceptions\StringsException;

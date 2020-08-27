@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Menu;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Menu;
 
 use Knp\Menu\ItemInterface;
 use Sylius\Bundle\UiBundle\Menu\Event\MenuBuilderEvent;

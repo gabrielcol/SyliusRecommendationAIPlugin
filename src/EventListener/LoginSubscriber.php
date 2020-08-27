@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\EventListener;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
-use Setono\SyliusAnalyticsPlugin\Tag\GtagTag;
-use Setono\SyliusAnalyticsPlugin\Tag\GtagTagInterface;
-use Setono\SyliusAnalyticsPlugin\Tag\Tags;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTag;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTagInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\Tags;
 use Setono\TagBagBundle\TagBag\TagBagInterface;
 
 final class LoginSubscriber extends TagSubscriber

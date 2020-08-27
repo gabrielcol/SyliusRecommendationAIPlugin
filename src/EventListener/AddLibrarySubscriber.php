@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\EventListener;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
-use Setono\SyliusAnalyticsPlugin\Tag\Tags;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\Tags;
 use Setono\TagBagBundle\Tag\TagInterface;
 use Setono\TagBagBundle\Tag\TwigTag;
 use Setono\TagBagBundle\TagBag\TagBagInterface;

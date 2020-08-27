@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin;
+namespace Gabrielcol\SyliusRecommendationAIPlugin;
 
 use Sylius\Bundle\CoreBundle\Application\SyliusPluginTrait;
 use Sylius\Bundle\ResourceBundle\AbstractResourceBundle;
 use Sylius\Bundle\ResourceBundle\SyliusResourceBundle;
 
-final class SetonoSyliusAnalyticsPlugin extends AbstractResourceBundle
+final class SyliusRecommendationAIPlugin extends AbstractResourceBundle
 {
     use SyliusPluginTrait;
 

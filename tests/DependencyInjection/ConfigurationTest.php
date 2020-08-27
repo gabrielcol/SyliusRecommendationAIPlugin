@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Tests\Setono\SyliusAnalyticsPlugin\DependencyInjection;
+namespace Tests\Gabrielcol\SyliusRecommendationAIPlugin\DependencyInjection;
 
 use Matthias\SymfonyConfigTest\PhpUnit\ConfigurationTestCaseTrait;
 use PHPUnit\Framework\TestCase;
-use Setono\SyliusAnalyticsPlugin\DependencyInjection\Configuration;
-use Setono\SyliusAnalyticsPlugin\Doctrine\ORM\PropertyRepository;
-use Setono\SyliusAnalyticsPlugin\Form\Type\PropertyType;
-use Setono\SyliusAnalyticsPlugin\Model\Property;
-use Setono\SyliusAnalyticsPlugin\Model\PropertyInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\DependencyInjection\Configuration;
+use Gabrielcol\SyliusRecommendationAIPlugin\Doctrine\ORM\PropertyRepository;
+use Gabrielcol\SyliusRecommendationAIPlugin\Form\Type\PropertyType;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\Property;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\PropertyInterface;
 use Sylius\Bundle\ResourceBundle\Controller\ResourceController;
 use Sylius\Bundle\ResourceBundle\SyliusResourceBundle;
 use Sylius\Component\Resource\Factory\Factory;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Event;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Event;
 
-use Setono\SyliusAnalyticsPlugin\Builder\BuilderInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Builder\BuilderInterface;
 use Symfony\Contracts\EventDispatcher\Event;
 
 final class BuilderEvent extends Event

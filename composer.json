@@ -1,7 +1,7 @@
 {
-    "name": "setono/sylius-analytics-plugin",
+    "name": "gabrielcol/sylius-recommendation-ai-plugin",
     "type": "sylius-plugin",
-    "description": "Google Analytics plugin for Sylius",
+    "description": "Google Recommendation AI plugin for Sylius",
     "keywords": [
         "sylius",
         "sylius-plugin",
@@ -43,12 +43,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Setono\\SyliusAnalyticsPlugin\\": "src/"
+            "Gabrielcol\\SyliusRecommendationAIPlugin\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Setono\\SyliusAnalyticsPlugin\\": "tests/"
+            "Tests\\Gabrielcol\\SyliusRecommendationAIPlugin\\": "tests/"
         },
         "classmap": [
             "tests/Application/Kernel.php"

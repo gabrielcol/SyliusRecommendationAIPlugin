@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Tag;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Tag;
 
 final class Tags
 {

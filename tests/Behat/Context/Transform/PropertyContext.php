@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Setono\SyliusAnalyticsPlugin\Behat\Context\Transform;
+namespace Tests\Gabrielcol\SyliusRecommendationAIPlugin\Behat\Context\Transform;
 
 use Behat\Behat\Context\Context;
-use Setono\SyliusAnalyticsPlugin\Repository\PropertyRepositoryInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Repository\PropertyRepositoryInterface;
 
 final class PropertyContext implements Context
 {

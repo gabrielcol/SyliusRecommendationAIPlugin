@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Setono\SyliusAnalyticsPlugin\DependencyInjection;
+namespace Tests\Gabrielcol\SyliusRecommendationAIPlugin\DependencyInjection;
 
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractExtensionTestCase;
-use Setono\SyliusAnalyticsPlugin\DependencyInjection\SetonoSyliusAnalyticsExtension;
+use Gabrielcol\SyliusRecommendationAIPlugin\DependencyInjection\SetonoSyliusAnalyticsExtension;
 use Sylius\Bundle\ResourceBundle\SyliusResourceBundle;
 
 final class SetonoSyliusAnalyticsExtensionTest extends AbstractExtensionTestCase

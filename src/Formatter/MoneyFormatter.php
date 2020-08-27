@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Formatter;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Formatter;
 
 final class MoneyFormatter
 {

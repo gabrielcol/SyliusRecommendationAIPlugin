@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Tag;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Tag;
 
-use Setono\SyliusAnalyticsPlugin\Builder\BuilderInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Builder\BuilderInterface;
 
 final class GtagTag implements GtagTagInterface
 {

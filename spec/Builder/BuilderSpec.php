@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\Setono\SyliusAnalyticsPlugin\Builder;
+namespace spec\Gabrielcol\SyliusRecommendationAIPlugin\Builder;
 
 use PhpSpec\ObjectBehavior;
-use Setono\SyliusAnalyticsPlugin\Builder\BuilderInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Builder\BuilderInterface;
 
 abstract class BuilderSpec extends ObjectBehavior
 {

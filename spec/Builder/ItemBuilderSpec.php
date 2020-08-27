@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace spec\Setono\SyliusAnalyticsPlugin\Builder;
+namespace spec\Gabrielcol\SyliusRecommendationAIPlugin\Builder;
 
-use Setono\SyliusAnalyticsPlugin\Builder\ItemBuilder;
+use Gabrielcol\SyliusRecommendationAIPlugin\Builder\ItemBuilder;
 
 class ItemBuilderSpec extends BuilderSpec
 {

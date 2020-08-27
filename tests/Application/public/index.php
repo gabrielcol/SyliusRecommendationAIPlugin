@@ -1,6 +1,6 @@
 <?php
 
-use Tests\Setono\SyliusAnalyticsPlugin\Application\Kernel;
+use Tests\Gabrielcol\SyliusRecommendationAIPlugin\Application\Kernel;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
 

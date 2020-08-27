@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Doctrine\ORM;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Doctrine\ORM;
 
-use Setono\SyliusAnalyticsPlugin\Repository\PropertyRepositoryInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Repository\PropertyRepositoryInterface;
 use Sylius\Bundle\ResourceBundle\Doctrine\ORM\EntityRepository;
 use Sylius\Component\Channel\Model\ChannelInterface;
 

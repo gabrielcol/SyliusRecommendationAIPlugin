@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\Context;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\Context;
 
-use Setono\SyliusAnalyticsPlugin\Model\PropertyInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Model\PropertyInterface;
 
 interface PropertyContextInterface
 {

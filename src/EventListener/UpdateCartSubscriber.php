@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\EventListener;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
-use Setono\SyliusAnalyticsPlugin\Builder\ItemBuilder;
-use Setono\SyliusAnalyticsPlugin\Event\BuilderEvent;
-use Setono\SyliusAnalyticsPlugin\Tag\GtagTag;
+use Gabrielcol\SyliusRecommendationAIPlugin\Builder\ItemBuilder;
+use Gabrielcol\SyliusRecommendationAIPlugin\Event\BuilderEvent;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTag;
 use Setono\TagBagBundle\TagBag\TagBagInterface;
 use Sylius\Bundle\ResourceBundle\Event\ResourceControllerEvent;
 use Sylius\Component\Core\Model\OrderItemInterface;

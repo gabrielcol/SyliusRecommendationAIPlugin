@@ -1,4 +1,4 @@
 suites:
     main:
-        namespace: Setono\SyliusAnalyticsPlugin
-        psr4_prefix: Setono\SyliusAnalyticsPlugin
+        namespace: Gabrielcol\SyliusRecommendationAIPlugin
+        psr4_prefix: Gabrielcol\SyliusRecommendationAIPlugin

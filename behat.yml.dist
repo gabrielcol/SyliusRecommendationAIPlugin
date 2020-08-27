@@ -55,7 +55,7 @@ default:
         FriendsOfBehat\SymfonyExtension:
             bootstrap: tests/Application/config/bootstrap.php
             kernel:
-                class: Tests\Setono\SyliusAnalyticsPlugin\Application\Kernel
+                class: Tests\Gabrielcol\SyliusRecommendationAIPlugin\Application\Kernel
 
         FriendsOfBehat\VariadicExtension: ~
 

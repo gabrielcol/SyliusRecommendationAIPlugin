@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Setono\SyliusAnalyticsPlugin\DependencyInjection;
+namespace Gabrielcol\SyliusRecommendationAIPlugin\DependencyInjection;
 
 use Exception;
 use Sylius\Bundle\ResourceBundle\DependencyInjection\Extension\AbstractResourceExtension;
