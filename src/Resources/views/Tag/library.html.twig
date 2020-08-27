@@ -1,11 +1,17 @@
 {#- @var \Gabrielcol\SyliusRecommendationAIPlugin\Model\PropertyInterface[] properties -#}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ (properties|first).trackingId }}"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+<script type="text/javascript">
 
-{%- for property in properties -%}
-gtag('config', '{{ property.trackingId }}');
-{%- endfor -%}
+var _gre = _gre || [];
+// Credentials for project.
+_gre.push(['apiKey', '{{ property.apiKey }}']);
+_gre.push(['projectId', '{{ property.projectId }}']);
+_gre.push(['locationId', 'global']);
+_gre.push(['catalogId', 'default_catalog']);
+_gre.push(['eventStoreId', 'default_event_store']);
+
+(function() {
+    var gre = document.createElement('script'); gre.type = 'text/javascript'; gre.async = true;
+    gre.src = 'https://www.gstatic.com/recommendationengine/v1beta_event.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gre, s);
+})();
 </script>

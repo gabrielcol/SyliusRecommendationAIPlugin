@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTag;
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTagInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITag;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITagInterface;
 use Gabrielcol\SyliusRecommendationAIPlugin\Tag\Tags;
 use Setono\TagBagBundle\TagBag\TagBagInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
@@ -41,9 +41,9 @@ final class BeginCheckoutSubscriber extends TagSubscriber
             return;
         }
 
-        $this->tagBag->add(new GtagTag(
+        $this->tagBag->add(new GRecAITag(
             Tags::TAG_BEGIN_CHECKOUT,
-            GtagTagInterface::EVENT_BEGIN_CHECKOUT
+            GRecAITagInterface::EVENT_BEGIN_CHECKOUT
         ), TagBagInterface::SECTION_BODY_END);
     }
 }

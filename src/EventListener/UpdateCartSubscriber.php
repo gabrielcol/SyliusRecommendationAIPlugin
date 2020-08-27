@@ -6,7 +6,7 @@ namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
 use Gabrielcol\SyliusRecommendationAIPlugin\Builder\ItemBuilder;
 use Gabrielcol\SyliusRecommendationAIPlugin\Event\BuilderEvent;
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTag;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITag;
 use Setono\TagBagBundle\TagBag\TagBagInterface;
 use Sylius\Bundle\ResourceBundle\Event\ResourceControllerEvent;
 use Sylius\Component\Core\Model\OrderItemInterface;
@@ -39,7 +39,7 @@ abstract class UpdateCartSubscriber extends TagSubscriber
 
         $this->eventDispatcher->dispatch(new BuilderEvent($builder, $orderItem));
 
-        $this->tagBag->add(new GtagTag(
+        $this->tagBag->add(new GRecAITag(
             $key,
             $action,
             $builder

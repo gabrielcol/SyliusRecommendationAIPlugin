@@ -6,7 +6,7 @@ namespace Gabrielcol\SyliusRecommendationAIPlugin\Tag;
 
 use Gabrielcol\SyliusRecommendationAIPlugin\Builder\BuilderInterface;
 
-final class GtagTag implements GtagTagInterface
+final class GRecAITag implements GRecAITagInterface
 {
     /** @var string */
     private $action;

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTagInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITagInterface;
 use Gabrielcol\SyliusRecommendationAIPlugin\Tag\Tags;
 use Sylius\Bundle\ResourceBundle\Event\ResourceControllerEvent;
 
@@ -19,6 +19,6 @@ final class AddToCartSubscriber extends UpdateCartSubscriber
 
     public function track(ResourceControllerEvent $event): void
     {
-        $this->_track($event, Tags::TAG_ADD_TO_CART, GtagTagInterface::EVENT_ADD_TO_CART);
+        $this->_track($event, Tags::TAG_ADD_TO_CART, GRecAITagInterface::EVENT_ADD_TO_CART);
     }
 }

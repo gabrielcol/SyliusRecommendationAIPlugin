@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTag;
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTagInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITag;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITagInterface;
 use Gabrielcol\SyliusRecommendationAIPlugin\Tag\Tags;
 use Setono\TagBagBundle\TagBag\TagBagInterface;
 
@@ -24,9 +24,9 @@ final class AddPaymentInfoSubscriber extends TagSubscriber
             return;
         }
 
-        $this->tagBag->add(new GtagTag(
+        $this->tagBag->add(new GRecAITag(
             Tags::TAG_ADD_PAYMENT_INFO,
-            GtagTagInterface::EVENT_ADD_PAYMENT_INFO
+            GRecAITagInterface::EVENT_ADD_PAYMENT_INFO
         ), TagBagInterface::SECTION_BODY_END);
     }
 }

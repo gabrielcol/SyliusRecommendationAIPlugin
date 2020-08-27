@@ -1,5 +1,3 @@
 {%- if parameters is defined -%}
-    gtag('event', '{{ action }}', {{ parameters|raw }});
-{%- else -%}
-    gtag('event', '{{ action }}');
+    _gre.push(['logEvent', {{ parameters|raw }}]);
 {%- endif -%}

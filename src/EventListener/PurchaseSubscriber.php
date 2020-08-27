@@ -7,8 +7,8 @@ namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 use Gabrielcol\SyliusRecommendationAIPlugin\Builder\ItemBuilder;
 use Gabrielcol\SyliusRecommendationAIPlugin\Builder\PurchaseBuilder;
 use Gabrielcol\SyliusRecommendationAIPlugin\Event\BuilderEvent;
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTag;
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTagInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITag;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITagInterface;
 use Gabrielcol\SyliusRecommendationAIPlugin\Tag\Tags;
 use Setono\TagBagBundle\TagBag\TagBagInterface;
 use Sylius\Bundle\ResourceBundle\Event\ResourceControllerEvent;
@@ -69,9 +69,9 @@ final class PurchaseSubscriber extends TagSubscriber
 
         $this->eventDispatcher->dispatch(new BuilderEvent($builder, $order));
 
-        $this->tagBag->add(new GtagTag(
+        $this->tagBag->add(new GRecAITag(
             Tags::TAG_PURCHASE,
-            GtagTagInterface::EVENT_PURCHASE,
+            GRecAITagInterface::EVENT_PURCHASE,
             $builder
         ), TagBagInterface::SECTION_BODY_END);
     }

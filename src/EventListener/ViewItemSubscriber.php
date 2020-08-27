@@ -6,8 +6,8 @@ namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
 use Gabrielcol\SyliusRecommendationAIPlugin\Builder\ItemBuilder;
 use Gabrielcol\SyliusRecommendationAIPlugin\Event\BuilderEvent;
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTag;
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTagInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITag;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITagInterface;
 use Gabrielcol\SyliusRecommendationAIPlugin\Tag\Tags;
 use Setono\TagBagBundle\TagBag\TagBagInterface;
 use Sylius\Bundle\ResourceBundle\Event\ResourceControllerEvent;
@@ -41,9 +41,9 @@ final class ViewItemSubscriber extends TagSubscriber
 
         $this->eventDispatcher->dispatch(new BuilderEvent($builder, $product));
 
-        $this->tagBag->add(new GtagTag(
+        $this->tagBag->add(new GRecAITag(
             Tags::TAG_VIEW_ITEM,
-            GtagTagInterface::EVENT_VIEW_ITEM,
+            GRecAITagInterface::EVENT_VIEW_ITEM,
             $builder
         ), TagBagInterface::SECTION_BODY_END);
     }

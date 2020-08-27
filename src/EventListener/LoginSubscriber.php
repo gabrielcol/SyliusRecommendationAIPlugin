@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Gabrielcol\SyliusRecommendationAIPlugin\EventListener;
 
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTag;
-use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GtagTagInterface;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITag;
+use Gabrielcol\SyliusRecommendationAIPlugin\Tag\GRecAITagInterface;
 use Gabrielcol\SyliusRecommendationAIPlugin\Tag\Tags;
 use Setono\TagBagBundle\TagBag\TagBagInterface;
 
@@ -24,9 +24,9 @@ final class LoginSubscriber extends TagSubscriber
             return;
         }
 
-        $this->tagBag->add(new GtagTag(
+        $this->tagBag->add(new GRecAITag(
             Tags::TAG_LOGIN,
-            GtagTagInterface::EVENT_LOGIN
+            GRecAITagInterface::EVENT_LOGIN
         ), TagBagInterface::SECTION_BODY_END);
     }
 }
