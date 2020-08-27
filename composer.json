@@ -5,9 +5,10 @@
     "keywords": [
         "sylius",
         "sylius-plugin",
-        "setono",
+        "gabrielcol",
         "analytics",
-        "google"
+        "google",
+        "recommendation-ai"
     ],
     "license": "MIT",
     "require": {

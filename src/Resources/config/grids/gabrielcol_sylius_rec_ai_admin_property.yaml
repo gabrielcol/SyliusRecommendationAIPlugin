@@ -6,9 +6,9 @@ sylius_grid:
                 options:
                     class: "%gabrielcol_sylius_rec_ai.model.property.class%"
             fields:
-                trackingId:
+                projectName:
                     type: string
-                    label: gabrielcol_sylius_rec_ai.ui.tracking_id
+                    label: gabrielcol_sylius_rec_ai.ui.projectName
                 enabled:
                     type: twig
                     label: sylius.ui.enabled

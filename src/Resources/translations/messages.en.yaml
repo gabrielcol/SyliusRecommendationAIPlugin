@@ -4,9 +4,11 @@ gabrielcol_sylius_rec_ai:
         new_property: New property
         properties: Properties
         property_index: Property index
-        tracking_id: Tracking id
-        tracking_id_placeholder: Insert your tracking id, i.e. UA-12345678-1...
+        apiKey: API Key
+        apiKey_placeholder: Insert your API Key here
+        projectName: Project ID
+        projectName_placeholder: Insert your Project ID here
         enabled: Enabled
-        google_analytics: Google analytics
+        recommendation_ai: Recommendation AI
         property: Property
         no_channels: No channels

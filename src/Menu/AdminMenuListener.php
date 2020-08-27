@@ -28,7 +28,7 @@ final class AdminMenuListener
             ->addChild('analytics', [
                 'route' => 'gabrielcol_sylius_rec_ai_admin_property_index',
             ])
-            ->setLabel('gabrielcol_sylius_rec_ai.ui.google_analytics')
+            ->setLabel('gabrielcol_sylius_rec_ai.ui.recommendation_ai')
             ->setLabelAttribute('icon', 'bullhorn');
     }
 }

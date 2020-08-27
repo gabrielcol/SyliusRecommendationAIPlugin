@@ -15,7 +15,8 @@
             <generator strategy="AUTO"/>
         </id>
 
-        <field name="trackingId" type="string" unique="true"/>
+        <field name="apiKey" type="string" unique="true"/>
+        <field name="projectName" type="string" unique="true"/>
         <field name="enabled" column="enabled" type="boolean"/>
 
         <many-to-many field="channels" target-entity="Sylius\Component\Channel\Model\ChannelInterface">

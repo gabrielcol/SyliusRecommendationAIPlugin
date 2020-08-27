@@ -15,10 +15,16 @@ final class PropertyType extends AbstractResourceType
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
-            ->add('trackingId', TextType::class, [
-                'label' => 'gabrielcol_sylius_rec_ai.ui.tracking_id',
+            ->add('apiKey', TextType::class, [
+                'label' => 'gabrielcol_sylius_rec_ai.ui.apiKey',
                 'attr' => [
-                    'placeholder' => 'gabrielcol_sylius_rec_ai.ui.tracking_id_placeholder',
+                    'placeholder' => 'gabrielcol_sylius_rec_ai.ui.apiKey_placeholder',
+                ],
+            ])
+            ->add('projectName', TextType::class, [
+                'label' => 'gabrielcol_sylius_rec_ai.ui.projectName',
+                'attr' => [
+                    'placeholder' => 'gabrielcol_sylius_rec_ai.ui.projectName_placeholder',
                 ],
             ])
             ->add('enabled', CheckboxType::class, [
