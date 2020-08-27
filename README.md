@@ -59,8 +59,8 @@ imports:
 ### Step 4: Import routing
 
 ```yaml
-# config/routes/setono_sylius_analytics.yaml
-setono_sylius_analytics:
+# config/routes/gabrielcol_sylius_rec_ai.yaml
+gabrielcol_sylius_rec_ai:
     resource: "@SetonoSyliusAnalyticsPlugin/Resources/config/routing.yaml"
 ```
 

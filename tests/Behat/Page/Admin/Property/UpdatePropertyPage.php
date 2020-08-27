@@ -24,7 +24,7 @@ class UpdatePropertyPage extends UpdatePage
     protected function getDefinedElements(): array
     {
         return array_merge(parent::getDefinedElements(), [
-            'tracking_id' => '#setono_sylius_analytics_property_trackingId',
+            'tracking_id' => '#gabrielcol_sylius_rec_ai_property_trackingId',
         ]);
     }
 }

@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests\Gabrielcol\SyliusRecommendationAIPlugin\DependencyInjection;
 
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractExtensionTestCase;
-use Gabrielcol\SyliusRecommendationAIPlugin\DependencyInjection\SetonoSyliusAnalyticsExtension;
+use Gabrielcol\SyliusRecommendationAIPlugin\DependencyInjection\GabrielcolSyliusRecommendationAiPluginExtension;
 use Sylius\Bundle\ResourceBundle\SyliusResourceBundle;
 
 final class SetonoSyliusAnalyticsExtensionTest extends AbstractExtensionTestCase
@@ -13,7 +13,7 @@ final class SetonoSyliusAnalyticsExtensionTest extends AbstractExtensionTestCase
     protected function getContainerExtensions(): array
     {
         return [
-            new SetonoSyliusAnalyticsExtension(),
+            new GabrielcolSyliusRecommendationAiPluginExtension(),
         ];
     }
 
@@ -24,6 +24,6 @@ final class SetonoSyliusAnalyticsExtensionTest extends AbstractExtensionTestCase
     {
         $this->load();
 
-        $this->assertContainerBuilderHasParameter('setono_sylius_analytics.driver', SyliusResourceBundle::DRIVER_DOCTRINE_ORM);
+        $this->assertContainerBuilderHasParameter('gabrielcol_sylius_rec_ai.driver', SyliusResourceBundle::DRIVER_DOCTRINE_ORM);
     }
 }

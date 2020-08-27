@@ -16,9 +16,9 @@ final class PropertyType extends AbstractResourceType
     {
         $builder
             ->add('trackingId', TextType::class, [
-                'label' => 'setono_sylius_analytics.ui.tracking_id',
+                'label' => 'gabrielcol_sylius_rec_ai.ui.tracking_id',
                 'attr' => [
-                    'placeholder' => 'setono_sylius_analytics.ui.tracking_id_placeholder',
+                    'placeholder' => 'gabrielcol_sylius_rec_ai.ui.tracking_id_placeholder',
                 ],
             ])
             ->add('enabled', CheckboxType::class, [
@@ -35,6 +35,6 @@ final class PropertyType extends AbstractResourceType
 
     public function getBlockPrefix(): string
     {
-        return 'setono_sylius_analytics_property';
+        return 'gabrielcol_sylius_rec_ai_property';
     }
 }

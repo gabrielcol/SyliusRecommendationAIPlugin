@@ -17,5 +17,5 @@ namespace Gabrielcol\SyliusRecommendationAIPlugin\Builder;
  */
 final class ItemBuilder extends Builder
 {
-    public const EVENT_NAME = 'setono_sylius_analytics.builder.item';
+    public const EVENT_NAME = 'gabrielcol_sylius_rec_ai.builder.item';
 }

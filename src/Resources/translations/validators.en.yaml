@@ -1,4 +1,4 @@
-setono_sylius_analytics:
+gabrielcol_sylius_rec_ai:
     property:
         tracking_id:
             unique: You already have one property with this tracking id

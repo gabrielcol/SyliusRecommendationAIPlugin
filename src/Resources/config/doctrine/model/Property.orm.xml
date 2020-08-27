@@ -5,7 +5,7 @@
                   xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                                       http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <entity name="Gabrielcol\SyliusRecommendationAIPlugin\Model\Property" table="setono_sylius_analytics__property">
+    <entity name="Gabrielcol\SyliusRecommendationAIPlugin\Model\Property" table="gabrielcol_sylius_rec_ai__property">
 
         <indexes>
             <index columns="enabled" name="idx_enabled"/>
@@ -19,7 +19,7 @@
         <field name="enabled" column="enabled" type="boolean"/>
 
         <many-to-many field="channels" target-entity="Sylius\Component\Channel\Model\ChannelInterface">
-            <join-table name="setono_sylius_analytics__property_channels">
+            <join-table name="gabrielcol_sylius_rec_ai__property_channels">
                 <join-columns>
                     <join-column name="property_id" referenced-column-name="id" nullable="false" on-delete="CASCADE" />
                 </join-columns>

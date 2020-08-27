@@ -16,5 +16,5 @@ final class PurchaseBuilder extends Builder implements ItemsAwareBuilderInterfac
 {
     use ItemsAwareBuilderTrait;
 
-    public const EVENT_NAME = 'setono_sylius_analytics.builder.purchase';
+    public const EVENT_NAME = 'gabrielcol_sylius_rec_ai.builder.purchase';
 }

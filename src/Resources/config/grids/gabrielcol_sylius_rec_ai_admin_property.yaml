@@ -1,14 +1,14 @@
 sylius_grid:
     grids:
-        setono_sylius_analytics_admin_property:
+        gabrielcol_sylius_rec_ai_admin_property:
             driver:
                 name: doctrine/orm
                 options:
-                    class: "%setono_sylius_analytics.model.property.class%"
+                    class: "%gabrielcol_sylius_rec_ai.model.property.class%"
             fields:
                 trackingId:
                     type: string
-                    label: setono_sylius_analytics.ui.tracking_id
+                    label: gabrielcol_sylius_rec_ai.ui.tracking_id
                 enabled:
                     type: twig
                     label: sylius.ui.enabled
@@ -18,7 +18,7 @@ sylius_grid:
                     type: twig
                     label: sylius.ui.channels
                     options:
-                        template: "@SetonoSyliusAnalyticsPlugin/Admin/Grid/Field/channels.html.twig"
+                        template: "@GabrielcolSyliusRecommendationAIPlugin/Admin/Grid/Field/channels.html.twig"
             actions:
                 main:
                     create:

@@ -21,8 +21,8 @@ class CreatePropertyPage extends BaseCreatePage
     protected function getDefinedElements(): array
     {
         return array_merge(parent::getDefinedElements(), [
-            'tracking_id' => '#setono_sylius_analytics_property_trackingId',
-            'channels' => 'input[name="setono_sylius_analytics_property[channels][]"]',
+            'tracking_id' => '#gabrielcol_sylius_rec_ai_property_trackingId',
+            'channels' => 'input[name="gabrielcol_sylius_rec_ai_property[channels][]"]',
         ]);
     }
 }

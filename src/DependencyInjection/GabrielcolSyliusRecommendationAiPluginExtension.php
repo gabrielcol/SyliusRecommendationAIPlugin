@@ -10,7 +10,7 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
-final class SetonoSyliusAnalyticsExtension extends AbstractResourceExtension
+final class GabrielcolSyliusRecommendationAiPluginExtension extends AbstractResourceExtension
 {
     /**
      * @throws Exception
@@ -22,6 +22,6 @@ final class SetonoSyliusAnalyticsExtension extends AbstractResourceExtension
 
         $loader->load('services.xml');
 
-        $this->registerResources('setono_sylius_analytics', $config['driver'], $config['resources'], $container);
+        $this->registerResources('gabrielcol_sylius_rec_ai', $config['driver'], $config['resources'], $container);
     }
 }

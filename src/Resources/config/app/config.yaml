@@ -1,2 +1,2 @@
 imports:
-    - "@SetonoSyliusAnalyticsPlugin/Resources/config/grids/setono_sylius_analytics_admin_property.yaml"
+    - "@GabrielcolSyliusRecommendationAIPlugin/Resources/config/grids/gabrielcol_sylius_rec_ai_admin_property.yaml"

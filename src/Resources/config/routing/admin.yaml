@@ -1,13 +1,13 @@
-setono_sylius_analytics_admin_property:
+gabrielcol_sylius_rec_ai_admin_property:
     resource: |
         section: admin
-        alias: setono_sylius_analytics.property
+        alias: gabrielcol_sylius_rec_ai.property
         templates: SyliusAdminBundle:Crud
         redirect: update
-        grid: setono_sylius_analytics_admin_property
+        grid: gabrielcol_sylius_rec_ai_admin_property
         vars:
             all:
-                subheader: setono_sylius_analytics.ui.property
+                subheader: gabrielcol_sylius_rec_ai.ui.property
             index:
                 icon: 'bullhorn'
     type: sylius.resource

@@ -2,9 +2,9 @@
 
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
-        <service id="setono_sylius_analytics.context.property" class="Gabrielcol\SyliusRecommendationAIPlugin\Context\PropertyContext">
+        <service id="gabrielcol_sylius_rec_ai.context.property" class="Gabrielcol\SyliusRecommendationAIPlugin\Context\PropertyContext">
             <argument type="service" id="sylius.context.channel.composite"/>
-            <argument type="service" id="setono_sylius_analytics.repository.property"/>
+            <argument type="service" id="gabrielcol_sylius_rec_ai.repository.property"/>
         </service>
     </services>
 </container>
